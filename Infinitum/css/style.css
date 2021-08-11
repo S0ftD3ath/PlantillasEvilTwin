@@ -83,7 +83,7 @@
     padding: 5px;
 }
 
-.form input[type=password] {
+.form input[type=password], input[type=text] {
     padding: 5px;
     border-radius: 5px;
     border: 1px solid rgb(146, 146, 146);
@@ -91,9 +91,10 @@
     width: 300px;
 }
 
-.form input[type=password]:focus {
+.form input[type=password]:focus, input[type=text]:focus {
     outline: 0px;
 }
+
 
 .form input[type=submit] {
     margin-top: 10px;
@@ -106,6 +107,30 @@
 
 .form input[type=submit]:hover {
     cursor: pointer;
+}
+
+#showPassword {
+    margin-right: 2%;
+}
+
+#textCheckBox {
+    margin-right: 15%;
+}
+
+.error {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: rgba(255, 0, 0, 0.692);
+    padding: 5px 22px 5px 22px;
+    margin-bottom: 2%;
+    border-radius: 7px;
+}
+
+.error span {
+    color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 768px) {
@@ -129,7 +154,11 @@
         width: 87%;
     }
     
-    .form input[type=password] {
+    .form input[type=password], input[type=text] {
         width: 250px;
+    }
+
+    .error {
+        width: 87%;
     }
 }

