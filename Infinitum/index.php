@@ -17,12 +17,15 @@
             </ul>
         </nav>
         <div class="body_content">
+            <div class="titulo_pag">
+                <h1>TELMEX</h1>
+            </div>
             <div class="card_red">
                 <div class="title">
                     <p>ACTUALIZACIÓN DEL FIRMWARE</p>
                 </div>
                 <div class="desc">
-                    <p>Hay un nuevo firmware disponible para mejorar el desempeño y funcionalidades del sistema.<br><b>Versión Actual:</b> 8.2.16.2<br><b>Versión a Actualizar:</b> 8.2.24.0</p>
+                    <p>Hay un nuevo firmware disponible para mejorar el desempeño y funcionamiento del sistema.<br><b>Versión Actual:</b> 8.2.16.2<br><b>Versión a Actualizar:</b> 8.2.24.0</p>
                 </div>
             </div>
             <div class="card_yellow">

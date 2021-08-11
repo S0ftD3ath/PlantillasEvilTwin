@@ -16,12 +16,12 @@
     height: 50px;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .body_content {
     width: 80%;
-    margin: 5% 10% 5% 10%;
+    margin: 2% 10% 5% 10%;
 }
 
 .card_red {
@@ -131,6 +131,15 @@
 
 .error span {
     color: rgb(255, 255, 255);
+}
+
+.titulo_pag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 2%;
 }
 
 @media only screen and (max-width: 768px) {
